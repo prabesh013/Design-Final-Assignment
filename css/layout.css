@@ -98,3 +98,27 @@
   line-height: 26px;
   font-size: 26px;
 }
+.team-content {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding-top: 50px;
+  border-bottom: 2px solid #e8e8e8;
+}
+.profile {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.name {
+  padding: 20px 0px 25px;
+  font-size: 13px;
+}
+.name h6 {
+  margin-bottom: 5px;
+  color: #999999;
+  font-weight: normal;
+  /* line-height: 15.6px; */
+}
+.name a {
+  color: #d54346;
+}
