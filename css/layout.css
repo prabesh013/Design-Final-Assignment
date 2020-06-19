@@ -1,13 +1,33 @@
+.header-contents {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 45px 20px 35px;
+}
 .logo {
   float: left;
 }
-.website-text {
-  margin-left: 33px;
-  margin-top: 13px;
-  width: 166px;
+.the-point-logo,
+.company-motto {
   float: left;
-  border-left: 1px solid #b2b2b2;
 }
-.search-form {
+.the-point-logo {
+  padding-right: 25px;
+}
+.company-motto {
+  margin-top: 5px;
+  border-left: 1px solid #b2b2b2;
+  padding: 10px 7px;
+}
+
+.company-motto {
+  display: inline-block;
+}
+.search {
   float: right;
+  padding: 7px 0px 7px 10px;
+  margin-top: 5px;
+}
+
+.search input {
+  /* border-radius: 0px; */
 }
