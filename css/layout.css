@@ -1,0 +1,13 @@
+.logo {
+  float: left;
+}
+.website-text {
+  margin-left: 33px;
+  margin-top: 13px;
+  width: 166px;
+  float: left;
+  border-left: 1px solid #b2b2b2;
+}
+.search-form {
+  float: right;
+}
