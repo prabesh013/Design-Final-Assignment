@@ -2,7 +2,22 @@ html,
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+a {
+  color: #333;
+  text-decoration: none;
+}
 .header {
   border-top: 18px solid #1c1c1c;
   background-color: #f8f8f8;
+}
+.navbar {
+  background: #f8f8f8;
+}
+.company-motto p,
+.navigation p {
+  color: #999999;
+}
+.navigation ul li a:hover {
+  color: #d54346;
 }

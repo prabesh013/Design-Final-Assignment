@@ -31,3 +31,33 @@
 .search input {
   /* border-radius: 0px; */
 }
+.navbar {
+  background: ;
+}
+
+.navbar-contents {
+  max-width: 1000px;
+  margin: 0px auto;
+  border-top: 1px solid #dddddd;
+}
+
+.navigation {
+  float: left;
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation ul li {
+  float: left;
+  margin: 13px 0px 13px 18px;
+  padding-right: 18px;
+  font-size: 12px;
+  border-right: 1px solid #c9c9c9;
+}
+.navigation ul li:last-child {
+  border-right: none;
+}
+
+.social {
+  float: right;
+}
