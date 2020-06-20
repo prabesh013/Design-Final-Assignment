@@ -21,3 +21,9 @@ a {
 .navigation ul li a:hover {
   color: #d54346;
 }
+.red {
+  color: #d54346;
+}
+.footer {
+  background-color: #d54346;
+}

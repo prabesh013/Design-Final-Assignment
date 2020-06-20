@@ -122,3 +122,107 @@
 .name a {
   color: #d54346;
 }
+.project-work #latest {
+  font-size: 20px;
+  /* margin-bottom: 15px; */
+  padding-bottom: 25px;
+}
+.project-work .red {
+  font-size: 66px;
+}
+.latest-work-content {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding-top: 35px;
+}
+.project-work {
+  float: left;
+  text-align: right;
+  width: 33.33%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.project {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-desc {
+  /* margin-top: 10px; */
+  padding: 25px 0px 10px;
+}
+.project-desc h2 {
+  font-weight: normal;
+}
+
+.project-desc p {
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #999999;
+}
+.box-1,
+.box-2,
+.box-3 {
+  float: left;
+  text-align: left;
+}
+.footer-content {
+  width: 1000px;
+  margin: 0px auto;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 33.33%;
+}
+.footer-content {
+  padding: 15px;
+}
+.box-1 {
+  color: white;
+}
+.box-1 h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.box-1 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+.box-2 {
+  padding-left: 10px;
+  font-size: 12px;
+}
+.box-2 ul {
+  /* list-style-position: inside; */
+  /* padding-left: 20px; */
+  /* list-style-type: " \00BB"; */
+  list-style: none;
+  padding-top: 15px;
+  color: white;
+}
+.box-2 ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* padding-left: 25px; */
+  border-bottom: 1px solid #d85255;
+  color: white;
+}
+.box-2 span {
+  padding-right: 10px;
+  color: white;
+}
+.box-3 form {
+  /* width: 100%; */
+}
+.box-3 form input {
+  margin-top: 10px;
+
+  width: 100%;
+}
