@@ -1,19 +1,12 @@
+html,
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-div {
-  border: 1px solid red;
-}
-.header-container {
-  border-top: 10px solid #1c1c1c;
-  background-color: #f8f8f8;
-}
 .header {
-  width: 1000px;
-  margin: 0px auto;
-  padding: 43px 20px 34px 20px;
+  background-color: #f8f8f8;
+  border-top: 10px solid #1c1c1c;
 }
-.website-text p {
-  font-size: 12px;
-  padding-left: 10px;
+
+.search #search-query::placeholder {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
