@@ -21,3 +21,8 @@ body {
 .navbar ul li a:hover {
   color: #d54346;
 }
+
+.slider,
+.shout {
+  background-color: #f8f8f8;
+}

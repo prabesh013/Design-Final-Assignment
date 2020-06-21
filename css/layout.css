@@ -1,3 +1,4 @@
+/* header css */
 .header-contents {
   text-align: center;
   padding-top: 43px;
@@ -22,21 +23,18 @@
   background-color: #d54346;
   padding: 5px 4px 5px 4px;
 }
-.navbar,
-.social {
-  /* display: none; */
-}
 .ham {
-  height: 30px;
-  width: 30px;
+  /* height: 30px; */
+  /* width: 30px; */
 }
 .ham label span {
-  margin: 5px auto;
+  margin: 5px;
   display: block;
-  width: 75%;
+  width: 5%;
   padding-top: 5px;
   border-top: 2px solid black;
 }
+/* navbar css */
 #toggle {
   display: none;
 }
@@ -45,19 +43,71 @@
 }
 .navbar {
   /* display: none; */
-  /* text-align: center; */
+  text-align: center;
 }
 .navbar ul {
   float: none;
 }
 .navbar ul li {
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+}
+.navbar ul li:last-child {
+  padding-bottom: 10px;
 }
 .navbar,
 .social {
   display: none;
   float: none;
+}
+.navbar ul li p {
+  display: none;
+}
+.slider-content {
+  max-width: 1000px;
+  max-height: 500px;
+  margin: 0px auto;
+  /* background: url("../img/main.jpg") no-repeat center/cover; */
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0f0f0f;
+  text-align: center;
+  padding: 13px 0px;
+  height: 8%;
+}
+.overlay p {
+  color: white;
+  font-size: 13px;
+  /* line-height: 1; */
+  height: 100%;
+}
+.slider .slider-content img {
+  width: 100%;
+}
+.shout {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.shout-contents {
+  max-width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.shout-contents h1 {
+  font-size: 38px;
+  /* line-height: 57px; */
+  font-weight: normal;
+  color: #4a4a4a;
+}
+.shout-contents p {
+  color: #999999;
+  /* line-height: 26px; */
+  font-size: 26px;
 }
 
 @media (min-width: 480px) {
@@ -101,7 +151,8 @@
     padding-top: 17px;
     padding-bottom: 16px;
   }
-  .ham {
+  .ham label,
+  .ham input {
     display: none;
   }
   .navbar-social-contents {
@@ -124,6 +175,7 @@
     line-height: 1;
   }
   .navbar ul li p {
+    display: block;
     margin-top: 4px;
     line-height: 1;
   }
@@ -150,5 +202,9 @@
   }
   .social i:hover {
     background-color: #ee802f;
+  }
+  .shout {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
