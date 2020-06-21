@@ -21,8 +21,13 @@ body {
 .navbar ul li a:hover {
   color: #d54346;
 }
+.red {
+  color: #d54346;
+}
 
 .slider,
-.shout {
+.shout,
+.team,
+.latest-work {
   background-color: #f8f8f8;
 }
