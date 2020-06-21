@@ -28,6 +28,28 @@ body {
 .slider,
 .shout,
 .team,
-.latest-work {
+.latest-work,
+.footer,
+.copyright {
   background-color: #f8f8f8;
+}
+.footer-content,
+.copyright-contents {
+  background-color: #d54346;
+  color: white;
+}
+.footer a {
+  color: #631618;
+}
+.footer a:hover {
+  color: #470203;
+}
+.project input:hover {
+  background-color: #aa3739;
+}
+.box-2 ul li a span {
+  color: white;
+}
+.box-3 form button:hover {
+  background-color: #470203;
 }

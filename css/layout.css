@@ -78,7 +78,6 @@
   background-color: #0f0f0f;
   text-align: center;
   padding: 13px 0px;
-  height: 8%;
 }
 .overlay p {
   color: white;
@@ -118,7 +117,7 @@
 .team-content {
   max-width: 1000px;
   margin: 0px auto;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   border-bottom: 2px solid #e8e8e8;
 }
 .name {
@@ -173,7 +172,7 @@
   padding-right: 10px;
 }
 .project-desc {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding: 25px 0px 10px;
 }
 .project-desc h2 {
@@ -189,6 +188,113 @@
 .project-work,
 .project {
   margin: 20px 0px;
+}
+.footer-content {
+  border-top: 5px solid #871f21;
+  border-bottom: 1px solid #b7282c;
+  padding-bottom: 30px;
+  /* padding-top: 30px; */
+}
+.footer h2,
+.footer p {
+  font-size: 13px;
+}
+.footer-content h2 {
+  padding-top: 30px;
+}
+.footer .box-1 p {
+  margin-top: 26px;
+}
+.footer .box-1 a {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+}
+#post-title {
+  display: inline-block;
+  padding-top: 24px;
+}
+#post-title p {
+  margin-top: 0px;
+}
+#post-title h3 {
+  font-size: 13px;
+}
+#post-title + p {
+  margin-top: 8px;
+}
+.box-1,
+.box-2,
+.box-3 {
+  /* float: left; */
+  text-align: center;
+  width: 100%;
+}
+.box-2,
+.box-3 {
+  padding-left: 0px;
+}
+.box-2 ul {
+  padding-top: 18px;
+}
+.box-2 ul li {
+  border-bottom: 1px solid #d85255;
+}
+.box-2 ul li a {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+}
+.box-2 ul li a span {
+  padding-right: 10px;
+}
+
+.box-3 h2 {
+  margin-bottom: 25px;
+}
+.box-3 form {
+  padding-top: 20px;
+}
+.form-text {
+  margin-bottom: 10px;
+}
+.form-text input {
+  width: 100%;
+  border-style: none;
+  border-radius: 4px;
+  padding: 10px 0px 11px 10px;
+}
+.form-text input::placeholder {
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.box-3 form button {
+  font-size: 0.75rem;
+  color: white;
+  border-style: none;
+  border-radius: 3px;
+  background-color: #871f21;
+  padding: 11px 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.copyright-contents {
+  border-top: 1px solid #db6063;
+}
+.copyright-contents {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding-top: 24px;
+  padding-bottom: 23px;
+}
+.copyright p {
+  font-size: 12px;
+}
+.text {
+  text-align: center;
+}
+.template {
+  display: none;
 }
 @media (min-width: 480px) {
   .header-contents {
@@ -259,30 +365,7 @@
     margin-top: 4px;
     line-height: 1;
   }
-  .social {
-    display: block;
-    float: right;
-    padding-top: 17px;
-    padding-bottom: 16px;
-  }
-  .social ul li {
-    float: left;
-    /* border: 1px solid black; */
-    height: 32px;
-    width: 32px;
-  }
-  .social i {
-    display: block;
-    margin-right: 10px;
-    font-size: 12px;
-    padding: 5px;
-    border-radius: 50%;
-    color: white;
-    background-color: #333333;
-  }
-  .social i:hover {
-    background-color: #ee802f;
-  }
+
   .shout {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -303,7 +386,26 @@
   }
   .project-work,
   .project {
-    margin: 0px 0px;
+    margin: 20px 0px;
+  }
+  .text {
+    float: left;
+  }
+  .template {
+    float: right;
+  }
+  .template {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .social {
+    display: block;
+    padding-top: 17px;
+    padding-bottom: 16px;
+  }
+  .social ul li {
+    display: none;
   }
 }
 @media (min-width: 992px) {
@@ -339,7 +441,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-
+  .project-work,
+  .project {
+    margin: 0px 0px;
+  }
   .box-1,
   .box-2,
   .box-3 {
@@ -347,8 +452,39 @@
     text-align: left;
     width: 33.33%;
   }
+  .box-2 {
+    padding-left: 44px;
+  }
+  .box-3 {
+    padding-left: 30px;
+  }
   .footer-content {
     width: 1000px;
     margin: 0px auto;
+  }
+  .social {
+    display: block;
+    float: right;
+    padding-top: 17px;
+    padding-bottom: 16px;
+  }
+  .social ul li {
+    display: block;
+    float: left;
+    /* border: 1px solid black; */
+    height: 32px;
+    width: 32px;
+  }
+  .social i {
+    display: block;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: #333333;
+  }
+  .social i:hover {
+    background-color: #ee802f;
   }
 }
