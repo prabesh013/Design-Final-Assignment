@@ -1,6 +1,5 @@
 .header-contents {
   text-align: center;
-  max-width: 1000px;
   padding-top: 43px;
   padding-bottom: 33px;
 }
@@ -23,10 +22,48 @@
   background-color: #d54346;
   padding: 5px 4px 5px 4px;
 }
+.navbar,
+.social {
+  /* display: none; */
+}
+.ham {
+  height: 30px;
+  width: 30px;
+}
+.ham label span {
+  margin: 5px auto;
+  display: block;
+  width: 75%;
+  padding-top: 5px;
+  border-top: 2px solid black;
+}
+#toggle {
+  display: none;
+}
+#toggle:checked + .navbar {
+  display: block;
+}
+.navbar {
+  /* display: none; */
+  /* text-align: center; */
+}
+.navbar ul {
+  float: none;
+}
+.navbar ul li {
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+.navbar,
+.social {
+  display: none;
+  float: none;
+}
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .header-contents {
     margin: 0px auto;
+    max-width: 1000px;
   }
   .logo {
     float: left;
@@ -49,23 +86,69 @@
   }
 
   .search #search-query {
-    /* padding-left: 9px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 81px; */
     padding: 10px 81px 10px 9px;
-    font-size: 12px;
-    /* border: 1px solid #dddddd; */
   }
   .search .btn {
-    /* font-size: 0.75rem; */
-    /*color: white; */
-    /* padding-left: 9px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 9px; */
     padding: 10px 9px 10px 9px;
-    /* border: 1px solid #d54346;
-    background-color: #d54346; */
+  }
+  .navbar-social-contents {
+    margin: 0px auto;
+  }
+
+  .ham .navbar {
+    display: block;
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 16px;
+  }
+  .ham {
+    display: none;
+  }
+  .navbar-social-contents {
+    max-width: 1000px;
+  }
+  .navbar ul li {
+    float: left;
+    padding: 3px 20px 3px 20px;
+    font-size: 12px;
+    border-right: 1px solid #c9c9c9;
+  }
+  .navbar ul li:first-child {
+    padding-left: 0px;
+  }
+  .navbar ul li:last-child {
+    border-right: none;
+    padding-right: 0px;
+  }
+  .navbar ul li h2 {
+    line-height: 1;
+  }
+  .navbar ul li p {
+    margin-top: 4px;
+    line-height: 1;
+  }
+  .social {
+    display: block;
+    float: right;
+    padding-top: 17px;
+    padding-bottom: 16px;
+  }
+  .social ul li {
+    float: left;
+    /* border: 1px solid black; */
+    height: 32px;
+    width: 32px;
+  }
+  .social i {
+    display: block;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: #333333;
+  }
+  .social i:hover {
+    background-color: #ee802f;
   }
 }

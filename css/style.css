@@ -10,3 +10,14 @@ body {
 .search #search-query::placeholder {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+.navbar-social {
+  background-color: #f8f8f8;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.navbar p {
+  color: #999999;
+}
+.navbar ul li a:hover {
+  color: #d54346;
+}
